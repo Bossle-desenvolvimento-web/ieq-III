@@ -18,6 +18,8 @@
 @media (min-width:979.98px) and (max-width:1199.98px){
 
     body{background-color:darkorange;}
+
+    .figure-logo > img{max-width: 100%;}
 }
 
 

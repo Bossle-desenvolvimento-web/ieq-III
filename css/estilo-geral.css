@@ -33,12 +33,83 @@
            
   header{width: 90%;
          height:205px;
-          background-color: hsl(198, 24%, 86%);
+          background-color: #118EBF;
           margin: auto;
-          margin-bottom: 5px;
-          text-align: center;      
-         display:block;
-         justify-content: space-around;}
+          margin-bottom: 5px;}
+          
+        
+         
+          .figure-logo > img-fluid{margin-left: -800px;
+                      height: auto;
+                    
+                   }
+                   
+           
+            
+   
+ 
+
+  .h1-title-site{font-family: var(--h1-title-site);
+                 margin-top: -180px;
+                 font-size: 4.8rem;
+                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+                 
+                   }
+
+
+   
+                 
+                   .menu {
+                    display: none; /* Começa oculto */
+                }
+        
+                .toggle-button {
+                    padding: 20px 20px;
+                    cursor: pointer; /* Adiciona um cursor ao botão para indicar que é clicável */
+                    background-color:#118EBF;
+                    border: solid 5px    #808080;
+                    margin-left: 1080px;
+                    margin-top: -120px;
+                    position: absolute;
+                }
+        
+                a {font-size: 16px;
+                  font-weight: bolder;
+                    color: black;
+                    list-style-type: none;
+                    text-decoration: none;
+                    padding: 20px 40px;
+                    background-color: #118EBF;
+                    margin-top:300px;
+                    border: solid 3px #8C0383;
+                }
+
+                a:hover{background-color: #79328C;
+                        border: solid 3px #118EBF;
+                         color: #000;}
+
+
+        
+                /* Estilo para o menu aberto */
+                .menu.open {
+                    display: block; /* Mostra o menu quando a classe 'open' é aplicada */
+                }
+           
+           
+                .material-symbols-outlined {
+                    font-variation-settings:
+                    'FILL' 0,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 24;
+                   
+                }             
+  
+  
+  
+
+           
+         
    
 
     
@@ -48,21 +119,8 @@
   
  
   
-  .figure-logo{margin-left:-800px;
+  
+               
+             
             
-  
-           
-            
-   
-  }
-
-  .h1-title-site{font-family: var(--h1-title-site);
-                 margin-top: -180px;
-                 font-size: 3.8rem;
-                 
-                 
-                 
-                  }
-  
-  
-  
+ 
