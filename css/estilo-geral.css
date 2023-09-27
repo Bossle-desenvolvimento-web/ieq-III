@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+:root{/*colors*/
+    --color-a:#0D0D0D;
+    --color-b:#F2BD1D;
+    --color-c:#118EBF;
+    --color-d:#79328C;
+    --color-e:#F21D44;
+    --color-f:#BF0606;
+    --color-g:#BF6B04;
+    --color-h:#D98E04;
+    --color-i:#1B72BF;
+    --color-f:#8C0383;
+    --color-g:#838486;
+     
+    /*fonts*/
+     --h1-title-site:font-family: 'Fira Sans', sans-serif;
+     }
+
+     *{margin: 0;
+       padding: 0;
+        box-sizing:content-box;}
+
+    body{font-size: 18px;
+         line-height: 25px;
+         text-decoration: none;
+         
+        line-break:auto;}  
+        
+        
+   h1,h2,h3{text-align: center;
+           font-weight: bolder ;}    
+           
+  header{width: 90%;
+         height:205px;
+          background-color: hsl(198, 24%, 86%);
+          margin: auto;
+          margin-bottom: 5px;
+          text-align: center;      
+         display:block;
+         justify-content: space-around;}
+   
+
+    
+   
+   
+  
+  
+ 
+  
+  .figure-logo{margin-left:-800px;
+            
+  
+           
+            
+   
+  }
+
+  .h1-title-site{font-family: var(--h1-title-site);
+                 margin-top: -180px;
+                 font-size: 3.8rem;
+                 
+                 
+                 
+                  }
+  
+  
+  
