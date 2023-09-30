@@ -57,22 +57,30 @@
                    }
 
 
-   
+    .menu-principal{
+                    margin-top: -20px;
+                   }
+
                  
                    .menu {
                     display: none; /* Começa oculto */
+                    margin-top: -120px;
                 }
+
+
+               
         
                 .toggle-button {
                     padding: 20px 20px;
                     cursor: pointer; /* Adiciona um cursor ao botão para indicar que é clicável */
                     background-color:#118EBF;
                     border: solid 5px    #808080;
-                    margin-left: 1080px;
-                    margin-top: -120px;
-                    position: absolute;
+                    margin-left: 600px;
+                    margin-top: -2px;
+                    
                 }
-        
+
+             
                 a {font-size: 16px;
                   font-weight: bolder;
                     color: black;
@@ -83,6 +91,8 @@
                     margin-top:300px;
                     border: solid 3px #8C0383;
                 }
+
+                
 
                 a:hover{background-color: #79328C;
                         border: solid 3px #118EBF;
@@ -107,12 +117,36 @@
   
   
   
+/*-----container and youe sections and elements---*/
 
+
+
+
+.container{width: 90%; 
+           height: auto;
+        background-color: aquamarine;}
+
+.col{border: solid 3px;
+     margin: 5px;
+      height: auto;}
+
+   .row{width: 100%;
+        height:auto;}  
+
+   #slider-news{background-color: #BF6B04;
+                  width: 100%;
+                  }
+       
            
-         
-   
+    .carousel-caption{background-color: #0D0D0D;} 
 
-    
+    /*-----cards agenda da semana*/
+
+    .card-img-top{margin: auto;}
+
+    .a-news{background-color: rgb(237, 100, 100);
+             padding: 10px 20px;
+              margin: auto;}
    
    
   
